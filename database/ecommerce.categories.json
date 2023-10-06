@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "651d7f55de62c74440d9d35a"
+  },
+  "name": "Electronics",
+  "parent": null,
+  "children": [
+    {
+      "$oid": "651d7f55de62c74440d9d35b"
+    }
+  ],
+  "__v": 3,
+  "count": 5
+},
+{
+  "_id": {
+    "$oid": "651d7f55de62c74440d9d35b"
+  },
+  "name": "Phones",
+  "parent": {
+    "$oid": "651d7f55de62c74440d9d35a"
+  },
+  "children": [
+    {
+      "$oid": "651d93314b0eb40ff7ce73f9"
+    },
+    {
+      "$oid": "651d93394b0eb40ff7ce73fd"
+    },
+    {
+      "$oid": "65200323d9f51e311c5f664e"
+    }
+  ],
+  "__v": 3,
+  "count": 5
+},
+{
+  "_id": {
+    "$oid": "651d8e98f01df6a2bf8b0ecc"
+  },
+  "name": "fashion",
+  "children": [
+    {
+      "$oid": "651d8f04f01df6a2bf8b0ecf"
+    }
+  ],
+  "__v": 1,
+  " count": 0,
+  "parent": null
+},
+{
+  "_id": {
+    "$oid": "651d8f04f01df6a2bf8b0ecf"
+  },
+  "name": "men",
+  "parent": {
+    "$oid": "651d8e98f01df6a2bf8b0ecc"
+  },
+  "children": [],
+  "__v": 0,
+  " count": 0
+},
+{
+  "_id": {
+    "$oid": "651d93314b0eb40ff7ce73f9"
+  },
+  "name": "Android",
+  "parent": {
+    "$oid": "651d7f55de62c74440d9d35b"
+  },
+  "children": [],
+  "__v": 2,
+  "count": 3
+},
+{
+  "_id": {
+    "$oid": "651ff8eaf4f49b2c393fef30"
+  },
+  "name": "Home and Kitchen",
+  "children": [],
+  "count": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65200323d9f51e311c5f664e"
+  },
+  "name": "iphone",
+  "parent": {
+    "$oid": "651d7f55de62c74440d9d35b"
+  },
+  "children": [],
+  "count": 2,
+  "__v": 0
+}]

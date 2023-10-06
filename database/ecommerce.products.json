@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "651e9111ef2fa85d5db59819"
+  },
+  "ProductName": "Realme-y3",
+  "categoryId": {
+    "$oid": "651d93314b0eb40ff7ce73f9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651fa4c80ebe668b638ac05d"
+  },
+  "ProductName": "Nokia c21",
+  "categoryId": {
+    "$oid": "651d93314b0eb40ff7ce73f9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65200460d9f51e311c5f6693"
+  },
+  "ProductName": "iphone 13",
+  "categoryId": {
+    "$oid": "65200323d9f51e311c5f664e"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65200484d9f51e311c5f66a8"
+  },
+  "ProductName": "iphone 15",
+  "categoryId": {
+    "$oid": "65200323d9f51e311c5f664e"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65202d03d2106dfa7d99ca54"
+  },
+  "ProductName": "Redmi-s23",
+  "categoryId": {
+    "$oid": "651d93314b0eb40ff7ce73f9"
+  },
+  "__v": 0
+}]
