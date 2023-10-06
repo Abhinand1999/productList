@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-category {
+  
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.subcategory {
+  
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.subcategory-list {
+  display: flex;
+}
+
+.subcategory-list p {
+  margin-right: 10px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  display: table-row;
+}
+
+.product-item::before {
+  content: "";
+  display: table-cell;
+  padding-right: 10px;
+}
+
+.product-item::after {
+  content: "";
+  display: table-cell;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+}
+
+.header a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
